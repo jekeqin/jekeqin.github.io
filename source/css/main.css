@@ -22,7 +22,7 @@ html,body{margin:0px;background-color:#f0f0f0;font-size:14px;font-family:'Micros
 
 .banner{height:100px;line-height:100px;}
 .nav{margin-bottom:20px;height:40px;font-size:15px;}
-.nav div{margin:0px 10px;}
+.nav div{margin:0px 10px;text-shadow:2px 2px 2px #cccccc;}
 
 @media all and (min-width:1240px){
     .main{margin:0px auto; width:1200px;height:100px;}
