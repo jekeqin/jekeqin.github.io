@@ -100,7 +100,6 @@
             });
         });
 
-
         WeixinJSBridge.on('menu:share:weibo', function (argv) {
             WeixinJSBridge.invoke('shareWeibo', {
                 "content": window.shareData.tContent,
