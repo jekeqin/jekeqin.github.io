@@ -1,0 +1,2 @@
+// JavaScript Document
+var StaticString =['No selected..Try again?', 'Try again?','Congratulations to you all three！','','<span class="Ch1">Congratulations!</span><br />You are right.<br />Please select your picture in the next page for winner wall. ','','<span class="Ch1">Sorry : Let\'s try again. </span><br /><br />Correct answer: <br /><span id="rightAnswer">Its tenderness and perfect combination of fat and meat</span><br /><br /> Thanks for playing! ','','Thanks for playing!','<span class="Ch1">Thanks for playing!</span><br /><br /> Let\'s try again. '];
