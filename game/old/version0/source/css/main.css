@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+html,body{margin:0px;background-color:#f0f0f0;font-size:14px;font-family:'Microsoft Yahei','Consolas';}
+
+.text-center{text-align:center;}
+.text-right{text-align:right;}
+
+/* 居中对齐 */
+.flex-center{display:flex; flex-direction:row; flex-wrap:wrap; align-items:center; justify-content:center;}
+/* 两端对齐 */
+.flex-between{display:flex; flex-direction:row; flex-wrap:wrap; align-items:center; justify-content:space-between;}
+/* 平均分布 */
+.flex-around{display:flex; flex-direction:row; flex-wrap:wrap; align-items:center; justify-content:space-around;}
+
+.border-box{box-sizing:border-box;}
+
+
+
+._nav{background-color:#ffffff;font-weight:bold;color:#b0b0b0;}
+.col-box div{width:100%;background-color:#ffffff;box-sizing:border-box;box-shadow:3px 3px 3px #e0e0e0;}
+
+
+._banner{height:100px;line-height:100px;}
+._nav{margin-bottom:20px;height:40px;font-size:15px;}
+._nav div{margin:0px 10px;text-shadow:2px 2px 2px #cccccc;}
+
+@media all and (min-width:1240px){
+    ._main{margin:0px auto; width:1200px;height:100px;}
+    ._main .col-box:first-child{width:800px;height:100px;}
+    ._main .col-box:last-child{width:380px;height:100px;}
+    .col-box div{padding:30px;border-radius:5px;}
+}
