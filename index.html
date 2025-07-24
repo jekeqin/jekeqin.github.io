@@ -1,125 +1,155 @@
-﻿<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="zh-CN">
 <head>
-	<meta charset="utf-8" />
-	<link rel="icon" type="image/png" href="images/logo.png" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-
-	<title>荆苇之巅-在线小游戏平台</title>
-	<meta name="keywords" content="  在线小游戏平台, 最便利小游戏平台" />
-	<meta name="description" content=" 小游戏平台 网为您带来经典好玩的小游戏，一套多个小游戏网站合集，采用响应式布局设计，自适应手机移动端，用户体验更好。让你玩的不亦乐乎，根本停不下来！" /> 
-	<meta name="author" content="" />
-	<meta name="copyright" content="" />
-
-	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
-    <meta name="viewport" content="width=device-width" />
-    <!-- Bootstrap core CSS     -->
-    <link href="css/bootstrap.min.css" rel="stylesheet" />
-
-    <!--  Material Dashboard CSS    -->
-    <link href="css/material-dashboard.css" rel="stylesheet"/>
-
-    <!--  CSS for Demo Purpose, don't include it in your project     -->
-    <link href="css/demo.css" rel="stylesheet" />
-
-    <!--     Fonts and icons     -->
-    <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
-    <link href='css/2d7207a20f294df196f3a53cae8a0def.css' rel='stylesheet' type='text/css'>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="./assets/logo96.png" />
+    <title>CorzReader - 小说搜索下载阅读器</title>
+<style type="text/css">
+html,body{
+    padding: 0px;
+    margin: 0px;
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #f4fafd;
+}
+a{
+    text-decoration: none;
+}
+header{
+    height: 80px;
+    background-color: #ffffffe6;
+    backdrop-filter: blur(12px);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+    padding: 0px 40px;
+}
+header img{
+    height: 60px;
+}
+header span{
+    font-size: 20px;
+    font-weight: 700;
+    color: #165dff;
+    padding-left: 12px;
+}
+header .down a{
+    padding: 8px 20px;
+    background-color: #165dffee;
+    border: none;
+    color: #fff;
+    border-radius: 8px;
+    font-size: 16px;
+}
+main{
+    height: 60vh;
+    min-height: 500px;
+    padding: 140px 40px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+main .imgs{
+    text-align: right;
+}
+main img{
+    max-width: 100%;
+    max-height: 400px;
+    border-radius: 4px;
+}
+main .name{
+    color: #165dff;
+    font-size: 64px;
+    font-weight: 700;
+}
+main .intro{
+    font-size: 20px;
+    padding: 20px 0px;
+    line-height: 200%;
+}
+main .down{
+    padding-top: 40px;
+}
+main .down a{
+    padding: 16px 32px;
+    background-color: #165dffee;
+    border: none;
+    color: #fff;
+    border-radius: 12px;
+    font-size: 16px;
+}
+section{
+    height: 40vh;
+    min-height: 400px;
+    background-color: #fff;
+    padding: 40px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 32px;
+}
+section div{
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+    border-radius: 16px;
+    padding: 20PX;
+    font-size: 20PX;
+    font-weight: 700;
+}
+footer{
+    background-color: #1d2129;
+    line-height: 80px;
+    text-align: center;
+    color: #ffffff99;
+    font-size: 14px;
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
+.flex.sb{
+    justify-content: space-between;
+}
+</style>
 </head>
 <body>
-    <div class="header">
-        <div class="logo">
-            <img src="images/logo.png" width="40" height="40"/> 小游戏平台
-        </div>
-        <div class="navbars">
-            
+<header class="flex sb">
+    <div class="flex">
+        <img src="./assets/logo96.png"/>
+        <span>CorzReader</span>
+    </div>
+    <div class="down">
+        <a href="">立即下载</a>
+    </div>
+</header>
+<main>
+    <div>
+        <div class="name">CorzReader</div>
+        <div class="intro">小说搜索下载阅读器，网络搜索<br/>本地导入导出，网盘导入导出，人声朗读</div>
+        <div class="down">
+            <a href="">PC 版免费下载</a>
         </div>
     </div>
-	<div class="wrapper">
-	    <div class="sidebar" data-color="purple">
-			<!--
-		        Tip 1: You can change the color of the sidebar using: data-color="purple | blue | green | orange | red"
-
-		        Tip 2: you can also add an image using data-image tag
-		    -->
-	    	<div class="sidebar-wrapper">
-	            <ul class="nav">
-				    <li class="active">
-	                    <a href="link/0.html" target="right" >
-	                        <i class="fa fa-twitch"></i>
-	                        <p>全部游戏</p>
-	                    </a>
-	                </li> 
-	                <li>
-	                    <a href="link/1.html" target="right">
-	                        <i class="fa fa-mortar-board"></i>
-	                        <p>益智游戏</p>
-	                    </a>
-	                </li>
-	                <li>
-	                    <a href="link/2.html" target="right" >
-	                        <i class="fa fa-reddit-alien"></i>
-	                        <p>动作游戏</p>
-	                    </a>
-	                </li>
-	                <li>
-	                    <a href="link/3.html"target="right" >
-	                        <i class="fa fa-rocket"></i>
-	                        <p>射击游戏</p>
-	                    </a>
-	                </li>
-	                <li>
-	                    <a href="link/4.html" target="right" >
-	                        <i class="fa fa-houzz"></i>
-	                        <p>消除游戏</p>
-	                    </a>
-	                </li>    
-					<li>
-	                    <a href="link/5.html" target="right" >
-	                        <i class="fa fa-modx"></i>
-	                        <p>休闲游戏</p>
-	                    </a>
-	                </li> 
-					<li>
-	                    <a href="link/6.html" target="right" >
-	                        <i class="fa fa-delicious"></i>
-	                        <p>棋牌游戏</p>
-	                    </a>
-	                </li> 
-				</ul>
-                <div align="center">
-                    <hr>
-                </div>
-			</div>
-	    </div>
-
-	    <div class="main">		
-			<iframe src="link/0.html" width="100%" name="right"></iframe>
-	    </div>
+    <div class="imgs">
+        <img src="./assets/app1.png"/>
     </div>
+</main>
+<section>
+    <div>网络搜索</div>
+    <div>网盘导入</div>
+    <div>TXT导入</div>
+    <div>人声朗读</div>
+    
+    <div>网络下载</div>
+    <div>网盘导出</div>
+    <div>TXT导出</div>
+    <div>深色模式</div>
+</section>
+<footer>
+    © 2025 corz.top
+</footer>
 </body>
-
-<!--   Core JS Files   -->
-<script src="js/jquery-3.1.0.min.js" type="text/javascript"></script>
-<script src="js/bootstrap.min.js" type="text/javascript"></script>
-<script src="js/material.min.js" type="text/javascript"></script>
-
-<!--  Charts Plugin -->
-<script src="js/chartist.min.js"></script>
-
-<script src="js/material-dashboard.js"></script>
-
-
-<script type="text/javascript">
-$(document).ready(function(){
-
-    $(".nav li").click(function(){
-        $(".nav li").removeClass("active");
-        $(this).addClass("active");
-        
-    })
-	// Javascript method's body can be found in assets/js/demos.js
-});
-</script>
-
 </html>
