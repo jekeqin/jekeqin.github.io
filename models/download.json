@@ -1,6 +1,6 @@
 [
     {
-        "url": "https://reader.corz.top/models/vocos-22khz-univ.onnx",
+        "url": "https://github.com/k2-fsa/sherpa-onnx/releases/download/vocoder-models/vocos-22khz-univ.onnx",
         "name": "vocos-22khz-univ",
         "comm": true
     },
