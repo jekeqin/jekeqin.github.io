@@ -1,11 +1,18 @@
 [
     {
         "url": "https://github.com/k2-fsa/sherpa-onnx/releases/download/vocoder-models/vocos-22khz-univ.onnx",
+        "file": "vocos-22khz-univ.onnx",
         "name": "vocos-22khz-univ",
         "comm": true
     },
     {
         "url": "https://github.com/k2-fsa/sherpa-onnx/releases/download/tts-models/matcha-icefall-zh-baker.tar.bz2",
-        "name": "sherpa-onnx-vits-zh-ll"
+        "file": "matcha-icefall-zh-baker.tar.bz2",
+        "name": "matcha-icefall-zh-baker"
+    },
+    {
+        "url": "https://github.com/k2-fsa/sherpa-onnx/releases/download/tts-models/vits-zh-hf-fanchen-C.tar.bz2",
+        "file": "vits-zh-hf-fanchen-C.tar.bz2",
+        "name": "vits-zh-hf-fanchen-C"
     }
 ]
