@@ -1,5 +1,9 @@
 [
     {
+        "url": "https://reader.corz.top/models/vocos-22khz-univ.onnx",
+        "name": "vocos-22khz-univ"
+    },
+    {
         "url": "https://release-assets.githubusercontent.com/github-production-release-asset/531380835/d5e20ec5-4b6e-4e88-80ad-88b449d2550d?sp=r&sv=2018-11-09&sr=b&spr=https&se=2025-07-31T09%3A59%3A37Z&rscd=attachment%3B+filename%3Dsherpa-onnx-vits-zh-ll.tar.bz2&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2025-07-31T08%3A58%3A52Z&ske=2025-07-31T09%3A59%3A37Z&sks=b&skv=2018-11-09&sig=0v%2FVguAnRevyDiiRJWPmhaup%2B2J%2FUWBlCoI0h5vYMbg%3D&jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc1Mzk1MjY3MywibmJmIjoxNzUzOTUyMzczLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.SEfkJGal_Ucrh7En1YBJyJ1oGsVusUWzf4YT92_zJY4&response-content-disposition=attachment%3B%20filename%3Dsherpa-onnx-vits-zh-ll.tar.bz2&response-content-type=application%2Foctet-stream",
         "name": "sherpa-onnx-vits-zh-ll"
     }
